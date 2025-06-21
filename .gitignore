@@ -1,0 +1,349 @@
+# 🔐 Security & Credentials
+.internal/GITHUB_CREDENTIALS.md
+.internal/
+*.key
+*.pem
+*.p12
+*.pfx
+config/secrets.json
+secrets/
+.env
+.env.local
+.env.*.local
+
+# 🎮 Game-Specific Files
+game_files/
+mh_wilds_backup/
+*.sav
+*.dat
+*.bin
+game_cache/
+temp_game_files/
+*.dmp
+*.mdmp
+crash_dumps/
+
+# 🖥️ Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# 🌐 IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+
+# 📊 Logs & Debugging
+*.log
+logs/
+debug.log
+error.log
+crash.log
+setup_assistant.log
+game_launch.log
+performance.log
+
+# 🔧 Build & Compilation
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.pdb
+*.ilk
+*.exp
+*.map
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 📦 Package Managers
+package-lock.json
+yarn.lock
+Pipfile.lock
+poetry.lock
+
+# 🚀 Deployment
+.netlify/
+.vercel/
+.firebase/
+.github/workflows/deploy.yml
+deploy/
+staging/
+
+# 🎯 Application Specific
+config/user_settings.json
+config/profiles/
+user_data/
+screenshots/
+recordings/
+mods/
+custom_configs/
+backup/
+temp/
+cache/
+.cache/
+
+# 📸 Media Files (Large)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.ico
+*.svg
+# Exception: Keep small logo/icon files
+!assets/icons/
+!assets/logos/
+!docs/images/
+
+# 🔊 Audio Files
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.aac
+*.wma
+*.m4a
+
+# 📚 Documentation Build
+docs/_build/
+docs/site/
+mkdocs_site/
+.sphinx/
+
+# 🧪 Testing
+.pytest_cache/
+test_results/
+test_output/
+coverage_html/
+.coverage
+.coveragerc
+junit.xml
+test-results.xml
+
+# 🏗️ Development Tools
+.mypy_cache/
+.pyre/
+.pytype/
+pyrightconfig.json
+.ruff_cache/
+.black_cache/
+
+# 📱 Mobile Development
+*.apk
+*.ipa
+*.aab
+android/
+ios/
+
+# 🎨 Design Files
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xd
+*.afdesign
+*.afphoto
+
+# 🗄️ Database
+*.db
+*.sqlite
+*.sqlite3
+*.db3
+
+# 📊 Analytics & Metrics
+analytics/
+metrics/
+telemetry/
+usage_stats/
+
+# 🔄 Backup Files
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*_backup.*
+*_old.*
+
+# 🌍 Localization
+*.pot
+*.po~
+locale/temp/
+
+# 📝 Documentation Temp
+*.tmp.md
+*.draft.md
+*_temp.md
+
+# 🚫 System-specific ignores
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# 🎯 Gaming Development
+*.unity
+*.meta
+*.prefab
+*.asset
+*.scene
+*.unitypackage
+Library/
+Temp/
+ProjectSettings/
+UserSettings/
+
+# 🔧 Configuration
+local_config.json
+development_config.json
+production_config.json
+staging_config.json
+
+# 📦 Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bz2
+*.xz
+
+# 🎮 Emulation
+*.iso
+*.rom
+*.bin
+*.cue
+*.img
+*.mdf
+*.nrg
+
+# 💻 Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+.conda/
+conda-env/
+
+# 🔄 Version Control
+.svn/
+.hg/
+.bzr/
+CVS/
+
+# 📊 Profiling
+*.prof
+*.lprof
+profile_results/
+
+# 🎪 Demo & Example Data
+demo_data/
+example_files/
+sample_configs/
+test_data/
+
+# 🏷️ Tags
+tags
+TAGS
+.tags
+.TAGS
+
+# 🚀 CI/CD
+.github/workflows/*.yml
+!.github/workflows/main.yml
+!.github/workflows/release.yml
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+.appveyor.yml
+azure-pipelines.yml
+
+# 📈 Monitoring
+newrelic.ini
+.newrelic.ini
+
+# 🔒 Security Scanning
+.snyk
+.sonar/
+sonar-project.properties
+
+# 🎯 Game Testing
+test_saves/
+test_configs/
+benchmark_results/
+performance_tests/
+
+# Exception: Keep important template files
+!.github/ISSUE_TEMPLATE/
+!.github/PULL_REQUEST_TEMPLATE.md
+!.github/workflows/main.yml
+!docs/
+!assets/README.md
+!locales/template.json 

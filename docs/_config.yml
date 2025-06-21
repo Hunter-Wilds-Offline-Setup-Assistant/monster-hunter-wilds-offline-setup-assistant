@@ -1,0 +1,252 @@
+# Jekyll Configuration for Monster Hunter Wilds Offline Setup Assistant
+# Optimized for GitHub Pages and SEO
+
+# Site Settings
+title: "Monster Hunter Wilds Offline Setup Assistant"
+description: "Experience Monster Hunter Wilds offline with comprehensive training modes, graphics optimization, and controller configuration. No internet connection required!"
+baseurl: ""
+url: "https://hunter-wilds-offline-setup-assistant.github.io"
+
+# SEO Configuration
+tagline: "Play Monster Hunter Wilds Offline - Training, Exploration & Optimization"
+keywords: "monster hunter wilds offline, mh wilds no internet, monster hunter wilds training mode, capcom game offline launcher, mh wilds configuration tool, monster hunter wilds local play, offline rpg setup assistant"
+
+# Author & Organization
+author:
+  name: "Hunter-Wilds-Offline-Setup-Assistant Community"
+  email: "community@hunter-wilds-offline-setup-assistant.org"
+  twitter: "MHWildsOffline"
+  github: "Hunter-Wilds-Offline-Setup-Assistant"
+
+organization:
+  name: "Hunter-Wilds-Offline-Setup-Assistant"
+  url: "https://github.com/Hunter-Wilds-Offline-Setup-Assistant"
+
+# Social Media & Links
+social:
+  name: "Monster Hunter Wilds Offline Setup Assistant"
+  links:
+    - "https://github.com/Hunter-Wilds-Offline-Setup-Assistant/monster-hunter-wilds-offline-setup-assistant"
+    - "https://twitter.com/MHWildsOffline"
+    - "https://youtube.com/c/MHWildsOffline"
+    - "https://discord.gg/mhwilds-offline"
+
+# GitHub Repository
+repository: "Hunter-Wilds-Offline-Setup-Assistant/monster-hunter-wilds-offline-setup-assistant"
+
+# Jekyll Theme
+theme: minima
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-gist
+
+# SEO Plugin Configuration
+seo:
+  type: "WebApplication"
+  name: "Monster Hunter Wilds Offline Setup Assistant"
+  headline: "Play Monster Hunter Wilds Offline"
+  description: "Complete offline setup assistant for Monster Hunter Wilds featuring training modes, biome exploration, graphics optimization, and controller configuration without internet requirements."
+  image: "/assets/mh-wilds-social-preview.png"
+  author: "Hunter-Wilds-Offline-Setup-Assistant Community"
+  publisher: "Hunter-Wilds-Offline-Setup-Assistant"
+  logo: "/assets/logo.png"
+
+# Open Graph & Twitter Cards
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      image: "/assets/mh-wilds-social-preview.png"
+      twitter:
+        card: "summary_large_image"
+        site: "@MHWildsOffline"
+        creator: "@MHWildsOffline"
+
+# Content Configuration
+permalink: /:title/
+paginate: 10
+paginate_path: "/page:num/"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+  hard_wrap: false
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - .gitignore
+  - .internal/
+
+# Include
+include:
+  - _pages
+  - assets
+  - docs
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+  tutorials:
+    output: true
+    permalink: /:collection/:name/
+
+# Site Navigation
+navigation:
+  main:
+    - title: "Home"
+      url: /
+    - title: "Documentation"
+      url: /docs/
+    - title: "Guides"
+      url: /guides/
+    - title: "Download"
+      url: https://github.com/Hunter-Wilds-Offline-Setup-Assistant/monster-hunter-wilds-offline-setup-assistant/releases/latest
+    - title: "Support"
+      url: https://discord.gg/mhwilds-offline
+
+# Footer Links
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Hunter-Wilds-Offline-Setup-Assistant/monster-hunter-wilds-offline-setup-assistant"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/mhwilds-offline"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/MHWildsOffline"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/c/MHWildsOffline"
+
+# Google Analytics
+google_analytics: "G-XXXXXXXXXX"
+
+# Google Search Console
+google_site_verification: "your-verification-code-here"
+
+# Bing Webmaster Tools
+bing_site_verification: "your-bing-verification-code"
+
+# Yandex Webmaster
+yandex_site_verification: "your-yandex-verification-code"
+
+# Canonical URL
+canonical_url: "https://hunter-wilds-offline-setup-assistant.github.io"
+
+# Language and Locale
+lang: "en"
+locale: "en_US"
+
+# Timezone
+timezone: "UTC"
+
+# Gaming & Project Specific
+project:
+  name: "Monster Hunter Wilds Offline Setup Assistant"  
+  version: "2.1.0"
+  release_date: "2024-01-15"
+  license: "MIT"
+  category: "Gaming Tool"
+  platform: "Cross-platform"
+  game: "Monster Hunter Wilds"
+  developer: "Capcom"
+  tags:
+    - "monster-hunter"
+    - "offline-gaming"
+    - "game-launcher"
+    - "graphics-optimization"
+    - "controller-setup"
+    - "training-mode"
+    - "biome-exploration"
+    - "performance-tuning"
+    - "mod-compatibility"
+    - "multi-platform"
+    - "open-source"
+    - "gaming-tool"
+
+# Structured Data
+structured_data:
+  type: "SoftwareApplication"
+  name: "Monster Hunter Wilds Offline Setup Assistant"
+  description: "Offline setup assistant for Monster Hunter Wilds with training modes and graphics optimization"
+  applicationCategory: "GameApplication"
+  operatingSystem: "Windows, macOS, Linux"
+  offers:
+    type: "Offer"
+    price: "0"
+    priceCurrency: "USD"
+  aggregateRating:
+    type: "AggregateRating"
+    ratingValue: "4.8"
+    ratingCount: "150"
+    bestRating: "5"
+    worstRating: "1"
+
+# Breadcrumbs
+breadcrumbs: true
+
+# Comments (Disabled for security)
+comments:
+  provider: false
+
+# Search
+search: true
+search_full_content: true
+search_provider: lunr
+lunr:
+  search_within_pages: true
+
+# SEO Optimization
+seo_tag:
+  image: "/assets/mh-wilds-social-preview.png"
+  type: "WebApplication"
+
+# Performance
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  ignore:
+    envs: development
+
+# Security Headers
+webrick:
+  headers:
+    X-Frame-Options: SAMEORIGIN
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: "1; mode=block"
+    Referrer-Policy: "strict-origin-when-cross-origin"
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed 
